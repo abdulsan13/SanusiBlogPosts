@@ -1,0 +1,92 @@
+body {
+    background-color: indigo;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5vw;
+    margin: 10px;
+    color: grey;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Protest Guerrilla", sans-serif;
+    box-shadow: 8px 6px 12px 9px grey;
+}
+
+ul{
+    margin: 0px;
+}
+
+body > header {
+    background-color: indigo;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav-ul > li {
+    padding: 33px;
+}
+
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    padding: 12px;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-content > div {
+    width: 75%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 { 
+    text-align: center;
+}
+
+body > footer { 
+    background-color: grey;
+    color: indigo;
+    display: flex;
+}
+
+img{
+    border-radius: 15%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px; 
+}
+
+#footer-ul > div > li > a { 
+    text-decoration: none;
+    color: white;
+}
