@@ -1,16 +1,13 @@
 body {
-    background-color: indigo;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1vw;
     margin: 10px;
-    color: grey;
 }
 
 #logo {
     margin: 0px;
     padding: 8px;
-    font-family: "Protest Guerrilla", sans-serif;
-    box-shadow: 8px 6px 12px 9px grey;
+    font-family: Helvetica, Arial, sans-serif
 }
 
 ul{
@@ -18,8 +15,6 @@ ul{
 }
 
 body > header {
-    background-color: indigo;
-    color: grey;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -39,10 +34,6 @@ body > header {
 body > header > nav > ul {
     list-style: none;
     text-decoration: none;
-}
-
-.navbutton {
-    padding: 12px;
 }
 
 body > main article {
@@ -68,8 +59,6 @@ h2 {
 }
 
 body > footer { 
-    background-color: grey;
-    color: indigo;
     display: flex;
 }
 
