@@ -72,7 +72,8 @@ img{
 }
 
 #footer-ul > div > li {
-    margin-left: 12px; 
+    display: flex;
+    align-items: center;
 }
 
 #footer-ul > div > li > a { 
